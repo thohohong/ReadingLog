@@ -9,7 +9,7 @@ const setURL = (keyword) => {
   return URL;
 }
 
-const Search = () => {
+const Search = ({navigation}) => {
   const [keyword, setKeyword] = useState("");
   const [bookData, setBookData] = useState("");
 

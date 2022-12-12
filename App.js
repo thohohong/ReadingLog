@@ -1,12 +1,11 @@
 import React, { useEffect } from 'react';
-import {Search} from './Search';
-
-
+import Navigator from './src/Navigator';
+import { Search } from './src/Search';
 
 const App = () => {
 
   return (
-    <Search></Search>
+    <Navigator/>
   )
 }
 
